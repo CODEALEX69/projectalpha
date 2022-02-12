@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Ask me how to make prediction.", "Want help contacting us?", "Ask me about what plants we currently support", "Ask me about diseases we support?","predictions not working?","Are you getting incorrect predictions?"],
+         "context": [""]
+        },
+        {"tag": "stepspredictions",
+         "patterns": ["How to check crop diseases?", "what are the steps involved to make predictions", "Give me a list of steps involved to make predictions", "List all steps involved to make prediction", "Which steps are involved to make predictions?" ,"How to make predictions?"],
+         "responses": ["Navigating to make predictions:\n 1.Take a clear photo of crop leaf \n2. Select choose file \n3.Click predict. "],
+         "context": [""]
+        },
+        {"tag": "contactUs",
+         "patterns": ["I'm getting incorrect predictions", "your website isn't working", "I'm facing problem with your website", "I'm facing some issues", "I would like to speak to customer service","customer service","I would like to speak to customer care","chat with customer care" ,"I need help","predictions are not working for my image"],
+         "responses": ["Please contact us using our support page, \nOur Team will get in touch with you. "],
+         "context": [""]
+        },
+        {"tag": "plant_list",
+         "patterns": ["I want to know which plants I can predict ", "List of supported plants", "", "Show plant supported", "can you show me plant's list","What plants do you support" ,"What plants can i predict"],
+         "responses": ["Our system can detect crop leaf diseases for plant like \nApple, \nCorn, \nGrape, \nPepper Bell, \nPotato, \nRice, \nTomato, and Wheat."],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "Diseases_list",
+         "patterns": ["can you tell me diseases list","what diseases can I predict","what are the diseases","can you list all diseases"],
+         "responses": ["Our system can detect 28 different crop leaf diseases for plants like Apple,Potato etc..."],
+         "context": [""]
+        },
+        {"tag": "loginissue",
+         "patterns": ["I'm not able to login", "unable to login", "login issue", "otp not received", "otp not working","I didn't receive any otp","I didn't receive OTP","" ],
+         "responses": ["We are extreamly sorry for this \n please use https://cropify.onrender.com/index for predictions."],
+         "context": [""]
+        }
+   ]
+}
